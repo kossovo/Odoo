@@ -60,7 +60,7 @@
 
                                   <div t-if="record.direction.raw_value == 'I'" style="text-align:right;">
                                       <span style="height:100%;float:right;margin-left:5px;">
-                                          <img t-att-src="kanban_image('res.partner', 'image_small', record_id)"/>
+                                          <img t-att-src="kanban_image('res.partner', 'image_small', record_id)" width="24" height="24" alt="Image SMS" />
                                       </span>
 
                                       <span class="oe_partner_heading">To: <field name="to_mobile"/></span><br/>
